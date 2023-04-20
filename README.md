@@ -1,9 +1,11 @@
 # eating-habits
 
-## Replica de pagina web hábitos alimenticios.
+## Desarrollo de pagina web basada en un diseño previamente maquetado.
 
-### Objetivo: Crear replica de página web de habitos alimenticios desde 0 usando las siguientes herramientas:
+### Se utilizaron las tecnologías :
 + **HTML**
 + **CSS-Metodologia BEM**
 + **SASS**
 + **GIT**
+
+**link: https://www.behance.net/gallery/136232057/Eatly-Landing-Page-design?tracking_source=search_projects%7Clanding+page**
