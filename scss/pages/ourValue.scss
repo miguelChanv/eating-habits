@@ -1,0 +1,72 @@
+.container-three{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .container-three__main{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        .container-three__img img{
+            width: 500px;
+        }
+        .container-three__Our-Value{
+            .container-three__h1{
+                display: flex;
+                align-items: center;
+                color: rgb(143, 14, 143);
+                font-size: 2.2rem;
+                font-weight: bold;
+            }
+            .container-three__p{
+                font-size: 1.2rem;
+                margin-bottom: 60px;
+            }
+            
+            .container-three__grid{
+                font-size: 1rem;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: repeat(2,1fr);
+                gap: 30px;
+                .container-three__sub{
+                    text-align: center;
+                    width: 250px;
+                    height: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgba(246, 226, 251, 0.601);
+                    border-radius: 20px;
+                    .container-three__icon{
+                        width: 60px;
+                    }
+                }
+                
+                .container-three__sub2{
+                    .container-three__icon{
+                        width: 60px;
+                        
+                    }
+                    
+                    box-shadow: 1px 16px 17px 0px rgba(0,0,0,0.5);
+                    text-align: center;
+                    width: 250px;
+                    height: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(247, 247, 247);
+                    border-radius: 20px;
+
+                }
+            }
+        }
+        
+    }
+
+}

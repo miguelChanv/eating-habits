@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    ul{
+        display: flex;
+        gap: 50px;
+        li{
+            padding-top: 5px;
+            font-size: 1.3rem;
+            color: white
+        }
+        
+    }
+    .button-header{
+        padding: 12px 15px;
+        border-radius: 8px;
+        border: 3px solid #805a03;
+        border-color: rgba(245, 222, 179, 0.678);
+        background-color: #feb809;
+        color: #805a03;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}

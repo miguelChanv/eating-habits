@@ -1,0 +1,89 @@
+.main {
+    position: relative;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(136, 70, 242);
+    background: linear-gradient(
+      94deg,
+      rgba(136, 70, 242, 1) 56%,
+      rgba(212, 124, 101, 1) 84%,
+      rgba(252, 249, 250, 1) 99%
+    );
+    background-repeat: no-repeat;
+    .container-main {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      align-items: center;
+      z-index: 10000;
+      #img__banner {
+        filter: drop-shadow(0 0 10px black);
+      }
+      .container-main__text {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+  
+        .container-main__h1 {
+          font-size: 70px;
+          font-weight: bold;
+          color: white;
+          .container-main__span {
+            color: #fdbe22;
+          }
+        }
+        .container-main__p {
+          margin-top: 10px;
+          font-size: 1.2rem;
+          color: white;
+        }
+  
+        .container-main__button {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .container-main__boton {
+            padding: 14px 25px;
+            border-radius: 10px;
+            border: 3px solid rgb(180, 174, 174);
+            background-color: #fdbe22;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #805a03;
+          }
+          .container-main__span-watchVideo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: white;
+          }
+          .bi-play-circle-fill {
+            font-size: 2.9rem;
+            color: white;
+          }
+        }
+      }
+    }
+  
+    .child-container {
+      background: rgb(255,255,255);
+      background: linear-gradient(94deg, rgba(255,255,255,1) 38%, rgba(203,177,238,1) 73%, rgba(255,255,255,1) 96%);
+      position: absolute;
+      padding: 0px 80px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      width: 100%;
+      background-color: white;
+      bottom: 0px;
+      z-index: 1;
+      .child-container__imgs{
+        margin-left: 150px;
+      }
+    }
+  }

@@ -1,0 +1,48 @@
+.testimonials{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    .testimonials__main{
+        
+        .testimonials__child{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            .testimonials__content{
+                width: 40%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                        h1{
+                            padding-top: 10px;
+                            text-align: center;
+                            font-size: 2.2rem;
+                            font-weight: bold;
+            
+                        }
+                        p{
+                            margin-top: 20px;
+                            text-align: center;
+                            font-size: 1.2rem;
+                        }
+                        h2{
+                            text-align: left;
+                            padding-left: 20px;
+                        }
+                        .testimonials__freelancer{
+                            text-align: left;
+                            padding-left: 20px;
+                        }
+                        .testimonials__sub-content{
+                            
+                            background-color: #f9f1fe;
+                            margin: 20px;
+                            width: 80%;
+                            border-radius: 20px;
+                        }
+            }
+            
+        }
+    }
+}
